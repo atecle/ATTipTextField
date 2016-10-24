@@ -11,7 +11,7 @@ This was just an excuse to try out IBDesignable and to build a framework in Swif
 
 #Screenshot
 <p align="center">
-  <img src="assets/TipTextDemo.gif"/>
+  <img width="420" src="assets/screenshot.gif"/>
 </p>
 
 #Setup with CocoaPods
