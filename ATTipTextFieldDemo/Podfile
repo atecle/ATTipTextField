@@ -1,0 +1,8 @@
+
+target 'ATTipTextFieldDemo' do
+  use_frameworks!
+
+  # Pods for ATTipTextFieldDemo
+  pod 'ATTipTextField', :path => '/Users/adam/Developer/Libraries/ATTipTextField'
+  pod 'PhoneNumberKit', '~> 1.0'
+end

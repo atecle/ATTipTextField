@@ -1,0 +1,16 @@
+PODS:
+  - ATTipTextField (1.0.0)
+
+DEPENDENCIES:
+  - ATTipTextField (from `../ATTipTextField`)
+
+EXTERNAL SOURCES:
+  ATTipTextField:
+    :path: "../ATTipTextField"
+
+SPEC CHECKSUMS:
+  ATTipTextField: 0ca5d3aa8f75c8f3a9338d3061a93fda2218280b
+
+PODFILE CHECKSUM: 79e3cee20ec636660847945221eba1188cb9294e
+
+COCOAPODS: 1.1.0.rc.2

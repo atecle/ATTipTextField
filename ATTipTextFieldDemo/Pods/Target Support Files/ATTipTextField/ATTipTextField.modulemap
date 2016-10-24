@@ -1,0 +1,6 @@
+framework module ATTipTextField {
+  umbrella header "ATTipTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

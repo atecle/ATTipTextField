@@ -1,0 +1,24 @@
+PODS:
+  - ATTipTextField (1.0.0)
+  - PhoneNumberKit (1.0.1):
+    - PhoneNumberKit/PhoneNumberKitCore (= 1.0.1)
+    - PhoneNumberKit/UIKit (= 1.0.1)
+  - PhoneNumberKit/PhoneNumberKitCore (1.0.1)
+  - PhoneNumberKit/UIKit (1.0.1):
+    - PhoneNumberKit/PhoneNumberKitCore
+
+DEPENDENCIES:
+  - ATTipTextField (from `/Users/adam/Developer/Libraries/ATTipTextField`)
+  - PhoneNumberKit (~> 1.0)
+
+EXTERNAL SOURCES:
+  ATTipTextField:
+    :path: "/Users/adam/Developer/Libraries/ATTipTextField"
+
+SPEC CHECKSUMS:
+  ATTipTextField: 0ca5d3aa8f75c8f3a9338d3061a93fda2218280b
+  PhoneNumberKit: 0b5ea9a5454d201656db766343e9d768f8542496
+
+PODFILE CHECKSUM: cbaf524311ab236c557f1109f1950c7559205943
+
+COCOAPODS: 1.1.0.rc.2

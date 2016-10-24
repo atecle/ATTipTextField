@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		385EDB126B1294E76E42A166 /* Pods_ATTipTextFieldDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A288694261C64E632BC3007 /* Pods_ATTipTextFieldDemo.framework */; };
+		66C70B2B1DBC4CCD00AC115E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C70B2A1DBC4CCD00AC115E /* AppDelegate.swift */; };
+		66C70B2D1DBC4CCD00AC115E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C70B2C1DBC4CCD00AC115E /* ViewController.swift */; };
+		66C70B301DBC4CCD00AC115E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C70B2E1DBC4CCD00AC115E /* Main.storyboard */; };
+		66C70B321DBC4CCD00AC115E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C70B311DBC4CCD00AC115E /* Assets.xcassets */; };
+		66C70B351DBC4CCD00AC115E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C70B331DBC4CCD00AC115E /* LaunchScreen.storyboard */; };
+		66C70B401DBC4CCD00AC115E /* ATTipTextFieldDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C70B3F1DBC4CCD00AC115E /* ATTipTextFieldDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66C70B3C1DBC4CCD00AC115E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C70B1F1DBC4CCD00AC115E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C70B261DBC4CCD00AC115E;
+			remoteInfo = ATTipTextFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A288694261C64E632BC3007 /* Pods_ATTipTextFieldDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATTipTextFieldDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C70B271DBC4CCD00AC115E /* ATTipTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTipTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C70B2A1DBC4CCD00AC115E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66C70B2C1DBC4CCD00AC115E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66C70B2F1DBC4CCD00AC115E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66C70B311DBC4CCD00AC115E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C70B341DBC4CCD00AC115E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66C70B361DBC4CCD00AC115E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C70B3B1DBC4CCD00AC115E /* ATTipTextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATTipTextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C70B3F1DBC4CCD00AC115E /* ATTipTextFieldDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTipTextFieldDemoTests.swift; sourceTree = "<group>"; };
+		66C70B411DBC4CCD00AC115E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8ACDB9CA75A827EC1526F3 /* Pods-ATTipTextFieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATTipTextFieldDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATTipTextFieldDemo/Pods-ATTipTextFieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D3C532DABDCAB2C56207E88C /* Pods-ATTipTextFieldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATTipTextFieldDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATTipTextFieldDemo/Pods-ATTipTextFieldDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66C70B241DBC4CCD00AC115E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385EDB126B1294E76E42A166 /* Pods_ATTipTextFieldDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C70B381DBC4CCD00AC115E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66C70B1E1DBC4CCD00AC115E = {
+			isa = PBXGroup;
+			children = (
+				66C70B291DBC4CCD00AC115E /* ATTipTextFieldDemo */,
+				66C70B3E1DBC4CCD00AC115E /* ATTipTextFieldDemoTests */,
+				66C70B281DBC4CCD00AC115E /* Products */,
+				D225F90404C17F97CF9395BE /* Pods */,
+				9118505B1CB8C95078DF9F35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66C70B281DBC4CCD00AC115E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66C70B271DBC4CCD00AC115E /* ATTipTextFieldDemo.app */,
+				66C70B3B1DBC4CCD00AC115E /* ATTipTextFieldDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66C70B291DBC4CCD00AC115E /* ATTipTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				66C70B2A1DBC4CCD00AC115E /* AppDelegate.swift */,
+				66C70B2C1DBC4CCD00AC115E /* ViewController.swift */,
+				66C70B2E1DBC4CCD00AC115E /* Main.storyboard */,
+				66C70B311DBC4CCD00AC115E /* Assets.xcassets */,
+				66C70B331DBC4CCD00AC115E /* LaunchScreen.storyboard */,
+				66C70B361DBC4CCD00AC115E /* Info.plist */,
+			);
+			path = ATTipTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		66C70B3E1DBC4CCD00AC115E /* ATTipTextFieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				66C70B3F1DBC4CCD00AC115E /* ATTipTextFieldDemoTests.swift */,
+				66C70B411DBC4CCD00AC115E /* Info.plist */,
+			);
+			path = ATTipTextFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		9118505B1CB8C95078DF9F35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A288694261C64E632BC3007 /* Pods_ATTipTextFieldDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D225F90404C17F97CF9395BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C8ACDB9CA75A827EC1526F3 /* Pods-ATTipTextFieldDemo.debug.xcconfig */,
+				D3C532DABDCAB2C56207E88C /* Pods-ATTipTextFieldDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C70B261DBC4CCD00AC115E /* ATTipTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C70B441DBC4CCD00AC115E /* Build configuration list for PBXNativeTarget "ATTipTextFieldDemo" */;
+			buildPhases = (
+				47711A6E4C8F38E7FC06A923 /* [CP] Check Pods Manifest.lock */,
+				66C70B231DBC4CCD00AC115E /* Sources */,
+				66C70B241DBC4CCD00AC115E /* Frameworks */,
+				66C70B251DBC4CCD00AC115E /* Resources */,
+				6C108C03EE5DC77E5503F148 /* [CP] Embed Pods Frameworks */,
+				09C7DA30D10BA242D53C9090 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATTipTextFieldDemo;
+			productName = ATTipTextFieldDemo;
+			productReference = 66C70B271DBC4CCD00AC115E /* ATTipTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66C70B3A1DBC4CCD00AC115E /* ATTipTextFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C70B471DBC4CCD00AC115E /* Build configuration list for PBXNativeTarget "ATTipTextFieldDemoTests" */;
+			buildPhases = (
+				66C70B371DBC4CCD00AC115E /* Sources */,
+				66C70B381DBC4CCD00AC115E /* Frameworks */,
+				66C70B391DBC4CCD00AC115E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C70B3D1DBC4CCD00AC115E /* PBXTargetDependency */,
+			);
+			name = ATTipTextFieldDemoTests;
+			productName = ATTipTextFieldDemoTests;
+			productReference = 66C70B3B1DBC4CCD00AC115E /* ATTipTextFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C70B1F1DBC4CCD00AC115E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Adam Tecle";
+				TargetAttributes = {
+					66C70B261DBC4CCD00AC115E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3GR96D7Z4R;
+						ProvisioningStyle = Automatic;
+					};
+					66C70B3A1DBC4CCD00AC115E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3GR96D7Z4R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66C70B261DBC4CCD00AC115E;
+					};
+				};
+			};
+			buildConfigurationList = 66C70B221DBC4CCD00AC115E /* Build configuration list for PBXProject "ATTipTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66C70B1E1DBC4CCD00AC115E;
+			productRefGroup = 66C70B281DBC4CCD00AC115E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C70B261DBC4CCD00AC115E /* ATTipTextFieldDemo */,
+				66C70B3A1DBC4CCD00AC115E /* ATTipTextFieldDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66C70B251DBC4CCD00AC115E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C70B351DBC4CCD00AC115E /* LaunchScreen.storyboard in Resources */,
+				66C70B321DBC4CCD00AC115E /* Assets.xcassets in Resources */,
+				66C70B301DBC4CCD00AC115E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C70B391DBC4CCD00AC115E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09C7DA30D10BA242D53C9090 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATTipTextFieldDemo/Pods-ATTipTextFieldDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47711A6E4C8F38E7FC06A923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C108C03EE5DC77E5503F148 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATTipTextFieldDemo/Pods-ATTipTextFieldDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C70B231DBC4CCD00AC115E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C70B2D1DBC4CCD00AC115E /* ViewController.swift in Sources */,
+				66C70B2B1DBC4CCD00AC115E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C70B371DBC4CCD00AC115E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C70B401DBC4CCD00AC115E /* ATTipTextFieldDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66C70B3D1DBC4CCD00AC115E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C70B261DBC4CCD00AC115E /* ATTipTextFieldDemo */;
+			targetProxy = 66C70B3C1DBC4CCD00AC115E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66C70B2E1DBC4CCD00AC115E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C70B2F1DBC4CCD00AC115E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66C70B331DBC4CCD00AC115E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C70B341DBC4CCD00AC115E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66C70B421DBC4CCD00AC115E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66C70B431DBC4CCD00AC115E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66C70B451DBC4CCD00AC115E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8ACDB9CA75A827EC1526F3 /* Pods-ATTipTextFieldDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3GR96D7Z4R;
+				INFOPLIST_FILE = ATTipTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamtecle.ATTipTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		66C70B461DBC4CCD00AC115E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C532DABDCAB2C56207E88C /* Pods-ATTipTextFieldDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3GR96D7Z4R;
+				INFOPLIST_FILE = ATTipTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamtecle.ATTipTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		66C70B481DBC4CCD00AC115E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3GR96D7Z4R;
+				INFOPLIST_FILE = ATTipTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamtecle.ATTipTextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATTipTextFieldDemo.app/ATTipTextFieldDemo";
+			};
+			name = Debug;
+		};
+		66C70B491DBC4CCD00AC115E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3GR96D7Z4R;
+				INFOPLIST_FILE = ATTipTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamtecle.ATTipTextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATTipTextFieldDemo.app/ATTipTextFieldDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66C70B221DBC4CCD00AC115E /* Build configuration list for PBXProject "ATTipTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C70B421DBC4CCD00AC115E /* Debug */,
+				66C70B431DBC4CCD00AC115E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C70B441DBC4CCD00AC115E /* Build configuration list for PBXNativeTarget "ATTipTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C70B451DBC4CCD00AC115E /* Debug */,
+				66C70B461DBC4CCD00AC115E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C70B471DBC4CCD00AC115E /* Build configuration list for PBXNativeTarget "ATTipTextFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C70B481DBC4CCD00AC115E /* Debug */,
+				66C70B491DBC4CCD00AC115E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66C70B1F1DBC4CCD00AC115E /* Project object */;
+}
