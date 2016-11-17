@@ -3,6 +3,7 @@
 </p>
 
 [![CocoaPods](https://img.shields.io/cocoapods/v/ATTipTextField.svg)](http://www.cocoapods.org/?q=attiptextfield)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 ![Swift 3](https://img.shields.io/badge/swift-3-orange.svg)
 
 UITextField subclass that can drop down a customizable message. Good for data validation UI.
