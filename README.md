@@ -35,7 +35,6 @@ func showTip(success: Bool) {
           emailTextField.tipBackgroundColor = // color for correct input
           emailTextField.tipText = // success message
           emailTextField.animateTip(visible: true)
-          emailInvalid = true
    } else {
         emailTextField.tipBackgroundColor = // color for bad input
         emailTextField.tipText = // error message
