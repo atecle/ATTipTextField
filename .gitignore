@@ -20,3 +20,4 @@ DerivedData
 
 # Carthage
 Carthage/Build
+*.zip

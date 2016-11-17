@@ -1,0 +1,25 @@
+language: swift
+osx_image: xcode8.0
+xcode_project: ATTipTextField.xcodeproj
+xcode_scheme: ATTipTextField
+xcode_sdk: iphonesimulator9.3
+env:
+  global:
+  - FRAMEWORK_NAME=ATTipTextField
+  before_install:
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+  before_script:
+  - carthage bootstrap
+  before_deploy:
+  - carthage build --no-skip-current
+  - carthage archive $FRAMEWORK_NAME
+deploy:
+  provider: releases
+  api_key:
+    secure: mIFgQHzPuzRbGtZbtYCekBMo4fzIbHRLS5TnAkzQD7NqWEMRcvqupZwJDl6ngZYszPV36ueTa8HnbXpErMgLXiRDA0sk8o2QNVR4hvTxKOeBqo0cW/ZCOvaLMGPw0zzQmpjxUGhok/uFKnzNlH0ecR2YgiCQpx9Qxn5cnwOF4XLXJGnPjWyI703aGQQyRzuczLviUF1b3q19kN6vQcMYNEHO7x6jxasypsXcEEQfOZDEmsmJITHSLJdCTAKvaSIhJCm6QGrhQGhy8S+QEhcMdoedoTBaHGk9mdqE0VG31MwBfFHLoWikqF7VNViytGyYzU8yzPEmSRl/tRUOzlM4XFEU1QUZzGKWQHLww58cC/yypSsCYslJ29KBRv1w0zVm+rJ0CxCRAZ6lYUYDsvOas7lW6ocmcpIqbxlm6BlrHvmRuQHHiFdFFXPExLVAmMkSKN5u0tC+4tvnqLvLsidBQYdAxskfgjW8Z36SsKmQZ9dkklTWP+NFAGgrazSb+k5w7eTaeqUWaYQm7vWC9kjGCnMGQ8jt2Z/qfaH+QnVeNrmPMdgzyXM5wWxto87d3WzCUd4b6A51mCzMZsp3NQv88TGEgvlB+DF6Q4LPd4Jd9yB9dbCkBbToI7djqFMgLqOllgqpah8LtlVAdUcsAzQa47yODBGq93pDpBHxOk7jsk4=
+  file: "$FRAMEWORK_NAME.framework.zip"
+  skip_cleanup: true
+  on:
+    repo: atecle/ATTipTextField
+    tags: true
