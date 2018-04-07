@@ -8,14 +8,14 @@
 
 UITextField subclass that can drop down a customizable message. Good for data validation UI.
 
-This was just an excuse to try out IBDesignable and to build a framework in Swift.
+:warning: This was just an excuse to try out IBDesignable and to build a framework in Swift. This code is kinda wack and I don't maintain this library so use at your own risk.
 
-#Screenshot
+# Screenshot
 <p align="center">
   <img width="420" src="assets/screenshot.gif"/>
 </p>
 
-#Setup with CocoaPods
+# Setup with CocoaPods
 
 ```
 pod 'ATTipTextField'
@@ -23,13 +23,13 @@ pod 'ATTipTextField'
 use_frameworks!
 ```
 
-##Usage
+## Usage
 
 Just use a subclass of TipTextField for your UITextField. You can set the class of your UITextField in your storyboard, or programmatically create a TipTextField instance.
 
 Use `animateTip(visible: Bool)` to animate a tip below the TipTextField.
 
-####Swift
+#### Swift
 ```swift
 func showTip(success: Bool) {
   if success == true {
@@ -45,10 +45,10 @@ func showTip(success: Bool) {
 
 ```
 
-#Author
+# Author
 [@admtcl](https://twitter.com/admtcl)
 
-#MIT License
+# MIT License
     The MIT License (MIT)
 
     Copyright (c) 2016 Adam Tecle
